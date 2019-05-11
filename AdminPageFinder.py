@@ -12,8 +12,8 @@ def Space(j):
 
 def findAdmin():
 	f = open("link.txt","r");
-	link = raw_input("Enter Site Name \n(ex : example.com or www.example.com ): ")
-	print "\n\nAvilable links : \n"
+	link = raw_input("Enter Site Name \n(example ==> target.com or www.target.com ): ")
+	print "\n\nScanning Progress............. \n"
 	while True:
 		sub_link = f.readline()
 		if not sub_link:
@@ -30,11 +30,11 @@ def findAdmin():
 			print "OK => ",req_link
 
 def Credit():
-	Space(12); print "#####################################"
-	Space(12); print "#        Admin Page Finder          #"
-	Space(12); print "#      Tools by AbraKdabra          #"
-	Space(12); print "#    Indonesian Ethical Hacking     #"
-	Space(12); print "#####################################"
+	Space(10); print "#####################################"
+	Space(10); print "#        Admin Page Finder          #"
+	Space(10); print "#      Tools by AbraKdabra          #"
+	Space(10); print "#    Indonesian Ethical Hacking     #"
+	Space(10); print "#####################################"
 
 Credit()
 findAdmin()
